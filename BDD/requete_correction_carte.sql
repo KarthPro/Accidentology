@@ -1,0 +1,32 @@
+-- these queries removes the markers outside France on the map
+
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<43.17835 and lat>40.92385 and longi<5.14887 and longi>3.20080 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<43.50020 and lat>43.36077 and longi<3.88943 and longi>4.06521 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<43.28710 and lat>42.63832 and longi<5.55187 and longi>5.04514 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<42.94066 and lat>36.31385 and longi<7.96976 and longi>5.57934 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<43.66061 and lat>42.79207 and longi<9.21671 and longi>7.32157 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<48.20708 and lat>43.73776 and longi<27.4370 and longi>7.82518 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<56.65577 and lat>47.76461 and longi<15.2157 and longi>8.44837 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<51.53765 and lat>49.35322 and longi<10.8162 and longi>6.75626 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<51.27387 and lat>50.39969 and longi<8.14719 and longi>3.68494 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<50.77287 and lat>50.26820 and longi<5.68725 and longi>4.44759 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<50.12328 and lat>49.74318 and longi<6.77141 and longi>5.02167 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<50.30307 and lat>49.55053 and longi<7.91314 and longi>6.21660 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<51.19572 and lat>50.99563 and longi<1.92298 and longi>1.41629 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<51.77041 and lat>51.09578 and longi<2.55469 and longi>0.88345 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<52.14871 and lat>6.121537 and longi<82.4100 and longi>25.9322 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<24.58192 and lat>-50.5868 and longi<39.3551 and longi>-40.185 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<43.69725 and lat>43.62994 and longi<-1.4678 and longi>-1.7689 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<43.73298 and lat>41.32842 and longi<-1.9832 and longi>-8.3937 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<42.75332 and lat>42.62866 and longi<-0.20470 and longi>-0.53017 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<42.60387 and lat>39.15693 and longi<1.386937 and longi>0.500478 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<42.28959 and lat>37.42993 and longi<4.446374 and longi>1.499686 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<51.22529 and lat>50.18089 and longi<1.486600 and longi>-1.24700 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<49.98776 and lat>49.46129 and longi<0.02510 and longi>-1.13944 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<50.19728 and lat>49.73062 and longi<-1.21635 and longi>-3.57421 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<49.75739 and lat>48.82092 and longi<-2.00151 and longi>-3.00127 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<47.63028 and lat>46.32106 and longi<-3.53439 and longi>-8.28203 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<47.35662 and lat>43.85593 and longi<-3.33875 and longi>-8.73582 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<44.74610 and lat>44.15299 and longi<-1.41603 and longi>-1.9609789 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<45.08568 and lat>42.5042 and longi<-1.64636 and longi>-5.8682 ;
+UPDATE `caracteristiques` SET `lat`=0,`longi`=0 WHERE  lat<42.95937 and lat>41.3171 and longi<5.740742 and longi>3.76009 ;
